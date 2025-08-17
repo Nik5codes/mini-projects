@@ -1,12 +1,12 @@
-/* General Reset & Body */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #eaeaea;
+  background-color: #000000;
 }
 
-/* Header */
+
 header {
   background-color: blueviolet;
   color: white;
@@ -18,7 +18,7 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Flexbox Grid */
+
 .album {
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +27,7 @@ header {
   padding: 20px;
 }
 
-/* Images */
+
 .album img {
   width: 200px;
   height: 150px;
@@ -41,7 +41,7 @@ header {
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .album img {
     width: 45%;

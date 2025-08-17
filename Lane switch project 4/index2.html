@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lane Switch</title>
+     <link rel="icon" type="image/x-icon" href="/files/Lane Switch/lane switch logo.jpg">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffaf5;
+            color: #333;
+            line-height: 1.6;
+            background-image: url('/images/background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: #ffeedc; 
+        }
+
+
+        .header {
+            background-color: #f4e1cd;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header img {
+            height: 100px;
+            border-radius: 100px;
+            width: 100px;
+        }
+
+        .header h3 {
+            font-size: 28px;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .hero {
+            background-color: #000;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+
+        .hero marquee img {
+            height: 200px;
+            margin: 0 10px;
+            border-radius: 8px;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #ffe0ba;
+        }
+
+        .section h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .section-grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .section-grid a img {
+            width: 180px;
+            height: 270px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+
+        .section-grid a img:hover {
+            transform: scale(1.3);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+        }
+
+        .footer {
+            background-color: #f4e1cd;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer img {
+            vertical-align: middle;
+            margin: 0 8px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="/images/lane switch logo1.png" alt="Lane Switch Logo">
+        <h3>Lane Switch</h3>
+    </div>
+
+    <div class="hero">
+        <marquee behavior="scroll" direction="right" scrollamount="5">
+            <img src="/images/img1.jpg" alt="img1">
+            <img src="/images/img2.jpg" alt="img2">
+            <img src="/images/img3.jpg" alt="img3">
+            <img src="/images/img4.jpg" alt="img4">
+            <img src="/images/img5.jpg" alt="img5">
+            <img src="/images/img6.jpg" alt="img6">
+            <img src="/images/img1.jpg" alt="img1">
+            <img src="/images/img2.jpg" alt="img2">
+            <img src="/images/img3.jpg" alt="img3">
+            <img src="/images/img4.jpg" alt="img4">
+            <img src="/images/img5.jpg" alt="img5">
+            <img src="/images/img6.jpg" alt="img6">
+            <img src="/images/img1.jpg" alt="img1">
+            <img src="/images/img2.jpg" alt="img2">
+            <img src="/images/img3.jpg" alt="img3">
+            <img src="/images/img4.jpg" alt="img4">
+            <img src="/images/img5.jpg" alt="img5">
+            <img src="/images/img6.jpg" alt="img6">
+        </marquee>
+    </div>
+
+    <div class="section">
+        <h2>Our Destinations</h2>
+        <div class="section-grid">
+            <a href="/destinations/bali.html"><img src="/destinations/bali.jpg" alt="bali"></a>
+            <a href="/destinations/dubai.html"><img src="/destinations/dubai.jpg" alt="dubai"></a>
+            <a href="/destinations/egypt.html"><img src="/destinations/egypt.jpg" alt="egypt"></a>
+            <a href="/destinations/petra.html"><img src="/destinations/petra.jpg" alt="petra"></a>
+            <a href="/destinations/jaipur.html"><img src="/destinations/jaipur.jpg" alt="jaipur"></a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Our Services</h2>
+        <div class="section-grid">
+            <a href="/services/taxi.html"><img src="/services/taxi.jpg" alt="Taxi Service"></a>
+            <a href="/services/food.html"><img src="/services/food.jpg" alt="Food Delivery"></a>
+            <a href="/services/guide.html"><img src="/services/guide.jpg" alt="Tour Guide"></a>
+            <a href="/services/rentals.html"><img src="/services/rentals.jpg" alt="Vehicle Rentals"></a>
+            <a href="/services/loundry.html"><img src="/services/loundry.jpg" alt="Laundry Service"></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <a href="contactus.html">Contact Us</a> |
+        <a href="AboutUs.html">About Us</a>
+        <br><br>
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="/files/Lane Switch/insta logo.webp" alt="Instagram" style="height: 30px;">
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+            <img src="/files/Lane Switch/facebook.png" alt="Facebook" style="height: 30px;">
+        </a>
+        <a href="https://in.linkedin.com/" target="_blank">
+            <img src="/files/Lane Switch/linkedin.png" alt="LinkedIn" style="height: 30px;">
+        </a>
+    </div>
+
+</body>
+</html>

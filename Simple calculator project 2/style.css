@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+
+.calculator {
+  margin: 20px;
+}
+
+input, select, button {
+  display: block;
+  margin: 10px 0;
+}

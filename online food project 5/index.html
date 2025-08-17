@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tasty Bites</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">TASTY BITES</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Contact</a>
+      <span class="cart"><span id="cart-count">0</span></span>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Menu</h1>
+    <div class="categories">
+      <button onclick="filterItems('all')">All</button>
+      <button onclick="filterItems('starter')">Starters</button>
+      <button onclick="filterItems('main')">Main Course</button>
+      <button onclick="filterItems('dessert')">Desserts</button>
+    </div>
+
+    <section id="menu-items">
+      <div class="item starter">
+        <img src="/images/Bruschetta.jpg" alt="Bruschetta">
+        <h3>Bruschetta</h3>
+        <p>Grilled bread with garlic, tomatoes, and basil</p>
+        <p>$5.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="item main">
+        <img src="/images/pizza.jpeg" alt="Pizza">
+        <h3>Margherita Pizza</h3>
+        <p>Classic pizza with tomatoes, mozzarella, and basil</p>
+        <p>$12.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="item main">
+        <img src="/images/salmon.jpeg" alt="Grilled Salmon">
+        <h3>Grilled Salmon</h3>
+        <p>Salmon fillet with a side of vegetables</p>
+        <p>$18.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+
+      <div class="item dessert">
+        <img src="/images/tiramisu.jpg" alt="Tiramisu">
+        <h3>Tiramisu</h3>
+        <p>Classic Italian dessert with mascarpone and coffee</p>
+        <p>$6.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
